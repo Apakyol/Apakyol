@@ -1,0 +1,5 @@
+Create an animal class has a functionaliry than will create some classes
+bird----flying
+human-----walking
+Cow----walking
+Fish----swimming

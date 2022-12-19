@@ -1,6 +1,7 @@
 package day38_Inheritance.CarTask;
 
 public class Car {
+
 public String brand,model,color;
 public int year, mile;
 public double price;
@@ -13,11 +14,12 @@ public double price;
         this.mile = mile;
         this.price = price;
     }
-    public void drive(){
 
-    }
     public void start(){
-
+        System.out.println(brand+" "+model+" is starting");
+    }
+    public void drive(){
+        System.out.println(brand+" "+model+" is driving");
     }
     /*public void fly(){
 
