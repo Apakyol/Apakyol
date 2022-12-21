@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class WrapperClassMethods {
     public static void main(String[] args) {
 
-        one();
+       // one();
+
         //autoboxing
         int a=40;
         Integer b=a;
