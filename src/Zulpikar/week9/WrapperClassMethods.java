@@ -1,7 +1,11 @@
 package Zulpikar.week9;
 
+import java.util.Scanner;
+
 public class WrapperClassMethods {
     public static void main(String[] args) {
+
+        one();
         //autoboxing
         int a=40;
         Integer b=a;
@@ -27,5 +31,18 @@ public class WrapperClassMethods {
             }
         }
         System.out.println("total= "+ total);
+    }
+    public static void one(){
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Please Enter a number");
+        String number= scanner.nextLine();
+
+        boolean isPositive=false;
+
+        int num=Integer.parseInt(number);
+        if (num>=0){
+            isPositive=true;
+        }
+        System.out.println(isPositive);
     }
 }
