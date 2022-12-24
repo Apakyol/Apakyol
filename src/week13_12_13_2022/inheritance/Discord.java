@@ -1,0 +1,10 @@
+package week13_12_13_2022.inheritance;
+
+public class Discord extends MobileApp {
+    public Discord( double version) {
+        super("Discord", version);
+    }
+    public void chat(){
+        System.out.println("the user is chatting...");
+    }
+}
